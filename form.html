@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="con">
+        <div class="box box1">Pizza Shop 2.0</div>
+
+        <div class="box box2">Name</div>
+        <div class="box box3">
+            <input type="text" name="name" id="name"><br>
+        </div>
+
+        <div class="box box4">Pizza Topping</div>
+        <div class="box box5">
+            <div class="y">
+                <input type="radio" name="topping" value="supreme" id="supreme">
+                <label for="supreme">Supreme</label>
+            </div>
+            <div class="y">
+                <input type="radio" name="topping" value="vegetarian" id="vegetarian">
+                <label for="vegetarian">Vegetarian</label>
+            </div>
+            <div class="y"><input type="radio" name="topping" value="hawaiian" id="hawaiian">
+                <label for="hawaiian"> Hawaiian</label>
+            </div>
+        </div>
+
+        <div class="box box6">Pizza Sauce</div>
+        <div class="box box7">
+            <select name="sauce" id="sauce">
+                <option value="Tomato">Tomato </option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select>
+        </div>
+
+        <div class="box box8">Optional Extras</div>
+        <div class="box box9">
+            <input type="checkbox" name="Extras" id="cheese" value="1">
+            <label for="cheese">Extras Cheese</label>
+            <input type="checkbox" name="Extras" id="free" value="1">
+            <label for="free">Extras Free Base</label>
+        </div>
+
+        <div class="box box10">
+            <p>Delivery Instructions:</p>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div class="box box11">
+            <button type="submit">Send my Order</button>
+        </div>
+    </div>
+</body>
+</html>
